@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.libreta{
+  width: 300px;
+  height: 400px;
+  background:#7765b5;
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgb(189, 183, 183), 20px 20px rgb(44, 44, 44);
+  position: relative;
+
+}
+
+.circulos{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 30px;
+  left: 7px;
+  color: #fff;
+  box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+}
+.lineas{
+  position: absolute;
+  top: 4px;
+  left: -20px;
+  width: 30px;
+  height: 8px;
+  background-color: #319073;
+  border-radius: 10px;
+  color:#319073;
+  box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+
+}
